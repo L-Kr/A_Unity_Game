@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Z!M.O.B.A Environment Art Pack/Demo/Demo.unity
+  isLoaded: 1
+  isActive: 1

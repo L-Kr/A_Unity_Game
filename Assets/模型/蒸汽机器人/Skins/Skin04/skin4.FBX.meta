@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: e49aa9b56d79d8a41b450b8f4c52de93
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: back_ax
+    100002: back_engine
+    100004: BL_wheel
+    100006: BR_wheel
+    100008: BUFFBONE_CSTM_PIPE_L_1
+    100010: BUFFBONE_CSTM_PIPE_L_2
+    100012: BUFFBONE_CSTM_PIPE_L_3
+    100014: BUFFBONE_CSTM_PIPE_L_4
+    100016: BUFFBONE_CSTM_PIPE_R_1
+    100018: BUFFBONE_CSTM_PIPE_R_2
+    100020: BUFFBONE_CSTM_PIPE_R_3
+    100022: BUFFBONE_CSTM_PIPE_R_4
+    100024: BUFFBONE_GLB_CHANNEL_LOC
+    100026: BUFFBONE_GLB_GROUND_LOC
+    100028: BUFFBONE_GLB_WEAPON_1
+    100030: C_BUFFBONE_GLB_CENTER_LOC
+    100032: C_BUFFBONE_GLB_CHEST_LOC
+    100034: C_BUFFBONE_GLB_HEAD_LOC
+    100036: C_BUFFBONE_GLB_LAYOUT_LOC
+    100038: C_BUFFBONE_GLB_OVERHEAD_LOC
+    100040: FL_wheel
+    100042: FR_wheel
+    100044: front_ax
+    100046: head
+    100048: L_BUFFBONE_GLB_HAND_LOC
+    100050: L_chest
+    100052: L_finger
+    100054: L_finger_b
+    100056: L_finger_c
+    100058: L_forearm
+    100060: L_hand
+    100062: L_PARENTING_HAND_LOC
+    100064: L_shoulder
+    100066: L_thumb
+    100068: L_uparm1
+    100070: Model
+    100072: neck
+    100074: pelvis
+    100076: pipe_L_1
+    100078: pipe_L_2
+    100080: pipe_L_3
+    100082: pipe_L_4
+    100084: pipe_R_1
+    100086: pipe_R_2
+    100088: pipe_R_3
+    100090: pipe_R_4
+    100092: R_BUFFBONE_GLB_HAND_LOC
+    100094: R_chest
+    100096: R_finger
+    100098: R_finger_b
+    100100: R_finger_c
+    100102: R_forearm
+    100104: R_hand
+    100106: R_hand_grab
+    100108: R_PARENTING_HAND_LOC
+    100110: R_shoulder
+    100112: R_thumb
+    100114: R_uparm
+    100116: root
+    100118: //RootNode
+    100120: spine
+    400000: back_ax
+    400002: back_engine
+    400004: BL_wheel
+    400006: BR_wheel
+    400008: BUFFBONE_CSTM_PIPE_L_1
+    400010: BUFFBONE_CSTM_PIPE_L_2
+    400012: BUFFBONE_CSTM_PIPE_L_3
+    400014: BUFFBONE_CSTM_PIPE_L_4
+    400016: BUFFBONE_CSTM_PIPE_R_1
+    400018: BUFFBONE_CSTM_PIPE_R_2
+    400020: BUFFBONE_CSTM_PIPE_R_3
+    400022: BUFFBONE_CSTM_PIPE_R_4
+    400024: BUFFBONE_GLB_CHANNEL_LOC
+    400026: BUFFBONE_GLB_GROUND_LOC
+    400028: BUFFBONE_GLB_WEAPON_1
+    400030: C_BUFFBONE_GLB_CENTER_LOC
+    400032: C_BUFFBONE_GLB_CHEST_LOC
+    400034: C_BUFFBONE_GLB_HEAD_LOC
+    400036: C_BUFFBONE_GLB_LAYOUT_LOC
+    400038: C_BUFFBONE_GLB_OVERHEAD_LOC
+    400040: FL_wheel
+    400042: FR_wheel
+    400044: front_ax
+    400046: head
+    400048: L_BUFFBONE_GLB_HAND_LOC
+    400050: L_chest
+    400052: L_finger
+    400054: L_finger_b
+    400056: L_finger_c
+    400058: L_forearm
+    400060: L_hand
+    400062: L_PARENTING_HAND_LOC
+    400064: L_shoulder
+    400066: L_thumb
+    400068: L_uparm1
+    400070: Model
+    400072: neck
+    400074: pelvis
+    400076: pipe_L_1
+    400078: pipe_L_2
+    400080: pipe_L_3
+    400082: pipe_L_4
+    400084: pipe_R_1
+    400086: pipe_R_2
+    400088: pipe_R_3
+    400090: pipe_R_4
+    400092: R_BUFFBONE_GLB_HAND_LOC
+    400094: R_chest
+    400096: R_finger
+    400098: R_finger_b
+    400100: R_finger_c
+    400102: R_forearm
+    400104: R_hand
+    400106: R_hand_grab
+    400108: R_PARENTING_HAND_LOC
+    400110: R_shoulder
+    400112: R_thumb
+    400114: R_uparm
+    400116: root
+    400118: //RootNode
+    400120: spine
+    2100000: 'Material #25'
+    4300000: Model
+    9500000: //RootNode
+    13700000: Model
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

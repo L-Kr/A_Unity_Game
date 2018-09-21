@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a1e43bf255e6ecc419c1d24f72289a8d
+timeCreated: 1521906041
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - anim: {instanceID: 0}
+  - Attack1: {fileID: 1345733894940028, guid: a792683da40b7214488da96b63a21784, type: 2}
+  - Attack2: {fileID: 1284164084717152, guid: 2b12f62169696e04d8af05e889f95260, type: 2}
+  - CameraTrans: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

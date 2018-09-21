@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Effect
+  m_Shader: {fileID: 4800000, guid: 0b99e79876f7d8a4eade811d895c307c, type: 3}
+  m_ShaderKeywords:
+  - AE_TOP_BOTTOM
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Rate
+        second: 9.26907253
+      data:
+        first:
+          name: _Distance
+        second: 10
+      data:
+        first:
+          name: _Radius
+        second: 1
+      data:
+        first:
+          name: _Distortion
+        second: 2
+      data:
+        first:
+          name: _Form
+        second: .200000003
+      data:
+        first:
+          name: _SimpleAmount1
+        second: .5
+      data:
+        first:
+          name: _SimpleAmount2
+        second: .5
+      data:
+        first:
+          name: _SimpleAmount3
+        second: .5
+      data:
+        first:
+          name: _SimpleAmount4
+        second: .5
+      data:
+        first:
+          name: _SimpleAmount5
+        second: .5
+      data:
+        first:
+          name: _SimpleAmount6
+        second: .5
+      data:
+        first:
+          name: _SimpleAmount7
+        second: .5
+      data:
+        first:
+          name: _SimpleAmount8
+        second: .5
+      data:
+        first:
+          name: _ComplicatedAmount1
+        second: .850000024
+      data:
+        first:
+          name: _ComplicatedRadiusInner1
+        second: .200000003
+      data:
+        first:
+          name: _ComplicatedRadiusOuter1
+        second: .270000011
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Center
+        second: {r: .88476193, g: .188102901, b: 0, a: 0}
+      data:
+        first:
+          name: _SimpleCenterRadial1
+        second: {r: .5, g: .5, b: .100000001, a: .100000001}
+      data:
+        first:
+          name: _SimpleCenterRadial2
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SimpleCenterRadial3
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SimpleCenterRadial4
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SimpleCenterRadial5
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SimpleCenterRadial6
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SimpleCenterRadial7
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SimpleCenterRadial8
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ComplicatedCenter1
+        second: {r: 0, g: 0, b: 0, a: 0}

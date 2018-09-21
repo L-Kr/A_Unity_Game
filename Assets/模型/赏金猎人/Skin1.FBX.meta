@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 1a6d387b87c7ee443a70d0f4bc65307b
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BUFFBONE_CSTM_WEAPON_1
+    100002: BUFFBONE_CSTM_WEAPON_2
+    100004: BUFFBONE_CSTM_WEAPON_3
+    100006: BUFFBONE_GLB_CHANNEL_LOC
+    100008: BUFFBONE_GLB_GROUND_LOC
+    100010: BUFFBONE_GLB_WEAPON_1
+    100012: C_BUFFBONE_GLB_CENTER_LOC
+    100014: C_BUFFBONE_GLB_CHEST_LOC
+    100016: C_BUFFBONE_GLB_HEAD_LOC
+    100018: C_BUFFBONE_GLB_LAYOUT_LOC
+    100020: C_BUFFBONE_GLB_OVERHEAD_LOC
+    100022: C_Hair1
+    100024: C_Hair2
+    100026: C_Hair3
+    100028: F_Hair1
+    100030: F_Hair2
+    100032: Feather1
+    100034: Hat
+    100036: Head
+    100038: L_BUFFBONE_GLB_FOOT_LOC
+    100040: L_BUFFBONE_GLB_HAND_LOC
+    100042: L_Clavicle
+    100044: L_Cuff1
+    100046: L_Elbow
+    100048: L_Foot
+    100050: L_Hand
+    100052: L_Hip
+    100054: L_KneeLower
+    100056: L_KneeUpper
+    100058: L_Ring1
+    100060: L_Ring2
+    100062: L_Shoulder
+    100064: L_Skirt1
+    100066: L_Skirt2
+    100068: L_Skirt3
+    100070: L_Thumb1
+    100072: L_Thumb2
+    100074: L_Toe
+    100076: L_WEAPON
+    100078: Model
+    100080: Neck
+    100082: Pelvis
+    100084: R_BUFFBONE_GLB_FOOT_LOC
+    100086: R_BUFFBONE_GLB_HAND_LOC
+    100088: R_Clavicle
+    100090: R_Cuff1
+    100092: R_Elbow
+    100094: R_Foot
+    100096: R_Hand
+    100098: R_Hip
+    100100: R_KneeLower
+    100102: R_KneeUpper
+    100104: R_Ring1
+    100106: R_Ring2
+    100108: R_Shoulder
+    100110: R_Skirt1
+    100112: R_Skirt2
+    100114: R_Skirt3
+    100116: R_Thumb1
+    100118: R_Thumb2
+    100120: R_Toe
+    100122: R_WEAPON
+    100124: Root
+    100126: //RootNode
+    100128: Snap_LWeapon2World
+    100130: Snap_RWeapon2World
+    100132: Spine1
+    100134: Spine2
+    400000: BUFFBONE_CSTM_WEAPON_1
+    400002: BUFFBONE_CSTM_WEAPON_2
+    400004: BUFFBONE_CSTM_WEAPON_3
+    400006: BUFFBONE_GLB_CHANNEL_LOC
+    400008: BUFFBONE_GLB_GROUND_LOC
+    400010: BUFFBONE_GLB_WEAPON_1
+    400012: C_BUFFBONE_GLB_CENTER_LOC
+    400014: C_BUFFBONE_GLB_CHEST_LOC
+    400016: C_BUFFBONE_GLB_HEAD_LOC
+    400018: C_BUFFBONE_GLB_LAYOUT_LOC
+    400020: C_BUFFBONE_GLB_OVERHEAD_LOC
+    400022: C_Hair1
+    400024: C_Hair2
+    400026: C_Hair3
+    400028: F_Hair1
+    400030: F_Hair2
+    400032: Feather1
+    400034: Hat
+    400036: Head
+    400038: L_BUFFBONE_GLB_FOOT_LOC
+    400040: L_BUFFBONE_GLB_HAND_LOC
+    400042: L_Clavicle
+    400044: L_Cuff1
+    400046: L_Elbow
+    400048: L_Foot
+    400050: L_Hand
+    400052: L_Hip
+    400054: L_KneeLower
+    400056: L_KneeUpper
+    400058: L_Ring1
+    400060: L_Ring2
+    400062: L_Shoulder
+    400064: L_Skirt1
+    400066: L_Skirt2
+    400068: L_Skirt3
+    400070: L_Thumb1
+    400072: L_Thumb2
+    400074: L_Toe
+    400076: L_WEAPON
+    400078: Model
+    400080: Neck
+    400082: Pelvis
+    400084: R_BUFFBONE_GLB_FOOT_LOC
+    400086: R_BUFFBONE_GLB_HAND_LOC
+    400088: R_Clavicle
+    400090: R_Cuff1
+    400092: R_Elbow
+    400094: R_Foot
+    400096: R_Hand
+    400098: R_Hip
+    400100: R_KneeLower
+    400102: R_KneeUpper
+    400104: R_Ring1
+    400106: R_Ring2
+    400108: R_Shoulder
+    400110: R_Skirt1
+    400112: R_Skirt2
+    400114: R_Skirt3
+    400116: R_Thumb1
+    400118: R_Thumb2
+    400120: R_Toe
+    400122: R_WEAPON
+    400124: Root
+    400126: //RootNode
+    400128: Snap_LWeapon2World
+    400130: Snap_RWeapon2World
+    400132: Spine1
+    400134: Spine2
+    2100000: 'Material #25'
+    4300000: Model
+    9500000: //RootNode
+    13700000: Model
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

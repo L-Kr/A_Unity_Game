@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: ee3085574f3f8a14e9a62ed57b003c6d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Back_Cape_Orient
+    100002: Back_CapeA
+    100004: Back_CapeB
+    100006: Back_CapeC
+    100008: Back_CapeD
+    100010: Back_CapeF
+    100012: BUFFBONE_CSTM_WEAPON_CENTER
+    100014: BUFFBONE_GLB_CHANNEL_LOC
+    100016: BUFFBONE_GLB_GROUND_LOC
+    100018: BUFFBONE_GLB_WEAPON_1
+    100020: C_BUFFBONE_GLB_CENTER_LOC
+    100022: C_BUFFBONE_GLB_CHEST_LOC
+    100024: C_BUFFBONE_GLB_HEAD_LOC
+    100026: C_BUFFBONE_GLB_LAYOUT_LOC
+    100028: C_BUFFBONE_GLB_OVERHEAD_LOC
+    100030: //RootNode
+    100032: Head
+    100034: L_BUFFBONE_GLB_FOOT_LOC
+    100036: L_BUFFBONE_GLB_HAND_LOC
+    100038: L_Clavicle
+    100040: L_Elbow
+    100042: L_Foot
+    100044: L_Hand
+    100046: L_Head_HairA
+    100048: L_Hip
+    100050: L_Index1
+    100052: L_Index2
+    100054: L_Knee
+    100056: L_Middle1
+    100058: L_Middle2
+    100060: L_Pauldron
+    100062: L_Pinky1
+    100064: L_Pinky2
+    100066: L_Ring1
+    100068: L_Ring2
+    100070: L_Shoulder
+    100072: L_Thumb1
+    100074: L_Thumb2
+    100076: L_Toe
+    100078: Model
+    100080: Neck
+    100082: Pelvis
+    100084: R_BUFFBONE_GLB_FOOT_LOC
+    100086: R_BUFFBONE_GLB_HAND_LOC
+    100088: R_Clavicle
+    100090: R_Elbow
+    100092: R_Foot
+    100094: R_Hand
+    100096: R_Head_HairA
+    100098: R_Hip
+    100100: R_Index1
+    100102: R_Index2
+    100104: R_Knee
+    100106: R_Middle1
+    100108: R_Middle2
+    100110: R_Pauldron
+    100112: R_Pinky1
+    100114: R_Pinky2
+    100116: R_Ring1
+    100118: R_Ring2
+    100120: R_Ruler_Break
+    100122: R_Ruler_Lo
+    100124: R_Ruler_Up
+    100126: R_Shoulder
+    100128: R_Thumb1
+    100130: R_Thumb2
+    100132: R_Toe
+    100134: Root
+    100136: Snap_Weapon2World
+    100138: Spine1
+    100140: Spine2
+    100142: Weapon
+    100144: Weapon_bend1
+    100146: Weapon_gleam
+    400000: Back_Cape_Orient
+    400002: Back_CapeA
+    400004: Back_CapeB
+    400006: Back_CapeC
+    400008: Back_CapeD
+    400010: Back_CapeF
+    400012: BUFFBONE_CSTM_WEAPON_CENTER
+    400014: BUFFBONE_GLB_CHANNEL_LOC
+    400016: BUFFBONE_GLB_GROUND_LOC
+    400018: BUFFBONE_GLB_WEAPON_1
+    400020: C_BUFFBONE_GLB_CENTER_LOC
+    400022: C_BUFFBONE_GLB_CHEST_LOC
+    400024: C_BUFFBONE_GLB_HEAD_LOC
+    400026: C_BUFFBONE_GLB_LAYOUT_LOC
+    400028: C_BUFFBONE_GLB_OVERHEAD_LOC
+    400030: //RootNode
+    400032: Head
+    400034: L_BUFFBONE_GLB_FOOT_LOC
+    400036: L_BUFFBONE_GLB_HAND_LOC
+    400038: L_Clavicle
+    400040: L_Elbow
+    400042: L_Foot
+    400044: L_Hand
+    400046: L_Head_HairA
+    400048: L_Hip
+    400050: L_Index1
+    400052: L_Index2
+    400054: L_Knee
+    400056: L_Middle1
+    400058: L_Middle2
+    400060: L_Pauldron
+    400062: L_Pinky1
+    400064: L_Pinky2
+    400066: L_Ring1
+    400068: L_Ring2
+    400070: L_Shoulder
+    400072: L_Thumb1
+    400074: L_Thumb2
+    400076: L_Toe
+    400078: Model
+    400080: Neck
+    400082: Pelvis
+    400084: R_BUFFBONE_GLB_FOOT_LOC
+    400086: R_BUFFBONE_GLB_HAND_LOC
+    400088: R_Clavicle
+    400090: R_Elbow
+    400092: R_Foot
+    400094: R_Hand
+    400096: R_Head_HairA
+    400098: R_Hip
+    400100: R_Index1
+    400102: R_Index2
+    400104: R_Knee
+    400106: R_Middle1
+    400108: R_Middle2
+    400110: R_Pauldron
+    400112: R_Pinky1
+    400114: R_Pinky2
+    400116: R_Ring1
+    400118: R_Ring2
+    400120: R_Ruler_Break
+    400122: R_Ruler_Lo
+    400124: R_Ruler_Up
+    400126: R_Shoulder
+    400128: R_Thumb1
+    400130: R_Thumb2
+    400132: R_Toe
+    400134: Root
+    400136: Snap_Weapon2World
+    400138: Spine1
+    400140: Spine2
+    400142: Weapon
+    400144: Weapon_bend1
+    400146: Weapon_gleam
+    2100000: 'Material #25'
+    4300000: Model
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Model
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
