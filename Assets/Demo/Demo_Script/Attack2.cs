@@ -6,6 +6,7 @@ public class Attack2 : MonoBehaviour {
 
     private GameObject Exprossion;
     private float StartTime;
+    private GameObject m_camera;
 
 	// Use this for initialization
 	void Start () {
@@ -14,8 +15,10 @@ public class Attack2 : MonoBehaviour {
 
     private void OnEnable()
     {
+        if(m_camera == null)
+            m_camera = GameObject.Find("Heros").transform.Find("_Main Camera").gameObject;
         StartTime = Time.time;
-        GetComponent<Rigidbody>().velocity = transform.forward * 25.0f;
+        GetComponent<Rigidbody>().velocity = (m_camera.transform.forward + new Vector3(0f, 0.2f, 0f)) * 25.0f;
     }
 
     // Update is called once per frame

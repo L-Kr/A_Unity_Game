@@ -5,7 +5,7 @@ using UnityEngine;
 public class Attack : MonoBehaviour {
 
     private float StartTime;
-
+    private GameObject m_camera;
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy")
@@ -20,6 +20,8 @@ public class Attack : MonoBehaviour {
 
     private void OnEnable()
     {
+        if(m_camera == null)
+            m_camera = GameObject.Find("Heros").transform.Find("_Main Camera").gameObject;
         StartTime = Time.time;
         StartCoroutine(Wait());
     }
@@ -39,6 +41,6 @@ public class Attack : MonoBehaviour {
     {
         if(name != "Attack1")
             yield return new WaitForSeconds(1f);
-        GetComponent<Rigidbody>().velocity = 20.0f * transform.forward;
+        GetComponent<Rigidbody>().velocity = 20.0f * m_camera.transform.forward;
     }
 }

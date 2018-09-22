@@ -166,3 +166,4 @@ F:\学霸\Unity\Demo\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 F:\学霸\Unity\Demo\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 F:\学霸\Unity\Demo\obj\Debug\Assembly-CSharp.dll
 F:\学霸\Unity\Demo\obj\Debug\Assembly-CSharp.pdb
+F:\学霸\Unity\Demo\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

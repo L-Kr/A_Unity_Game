@@ -30,11 +30,47 @@ public class CD_Manager
         E = cd_e;
         R = cd_r;
     }
+
+    /*技能总CD*/
     public float Q { get; private set; }
     public float E { get; private set; }
     public float R { get; private set; }
 
+    /*技能剩余cd*/
     public float cdq = 0;
     public float cde = 0;
     public float cdr = 0;
+
+    /*技能蓝耗,public读，private写*/
+    private float consume_q = 50f; //默认值
+    private float consume_e = 75f;
+    private float consume_r = 100f;
+    public float Consume_q
+    {
+        get
+        {
+            return consume_q;
+        }
+    }
+    public float Consume_e
+    {
+        get
+        {
+            return consume_e;
+        }
+    }
+    public float Consume_r
+    {
+        get
+        {
+            return consume_r;
+        }
+    }
+
+    public void Set_consume(float q,float e,float r)
+    {
+        consume_q = q;
+        consume_e = e;
+        consume_r = r;
+    }
 }
