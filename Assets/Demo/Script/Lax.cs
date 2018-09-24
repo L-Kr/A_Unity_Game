@@ -11,7 +11,7 @@ public class Lax : MonoBehaviour {
     private GameObject m_canvas;        //UI场景
     public float Speed = 1f;    //移动速度
     public float Hp_Max = 1000f;  //总红量
-    public float Mp_Max = 1000f;  //总蓝量
+    public float Mp_Max = 2000f;  //总蓝量
     public float Hp_Recovery = 1f;   //每秒回红
     public float Mp_Recovery = 5f;   //每秒回蓝
     private float Hp_Now;   //当前红量
@@ -22,6 +22,9 @@ public class Lax : MonoBehaviour {
     private GameObject Img_Skill_Q;     //Q技能cd图标
     private GameObject Img_Skill_E;     //E技能cd图标
     private GameObject Img_Skill_R;     //R技能cd图标
+
+    public int R_Count_Max;
+    private int R_Count_Now;   //R技能剩余发射数
 
     private int Jump_time = 10;     //控制跳跃的最大高度
 
@@ -37,6 +40,7 @@ public class Lax : MonoBehaviour {
         Img_Hero_blue = m_canvas.transform.Find("Hero_Info/MP").gameObject;
         Hp_Now = Hp_Max;
         Mp_Now = Mp_Max;
+        R_Count_Now = R_Count_Max;
         Lax_cd = new CD_Manager(7f, 10f, 30f);
         Lax_cd.Set_consume(50f, 75f, 20f);
     }
@@ -94,7 +98,14 @@ public class Lax : MonoBehaviour {
 
         if (m_skill4 && Lax_cd.cdr <= 0 && Mp_Now > Lax_cd.Consume_r)
         {
-            StartCoroutine(R_cd());
+            if(R_Count_Now == R_Count_Max)
+                StartCoroutine(R_cd());
+            R_Count_Now--;
+            if (R_Count_Now == 0)
+            {
+                Lax_cd.cdr = Lax_cd.R;
+                R_Count_Now = R_Count_Max;
+            }
             Mp_Now -= Lax_cd.Consume_r;
             m_animator.SetBool("Skill_R", true);
             GameObject Skill = GameObject.Find("Skill").transform.Find("Attack1").gameObject;
@@ -102,6 +113,7 @@ public class Lax : MonoBehaviour {
             Skill_4.transform.position = transform.position + transform.forward + transform.up;
             Skill_4.transform.localRotation = transform.localRotation;
             Skill_4.SetActive(true);
+            Skill_4.GetComponent<Attack>().Hurt = 75f;
         }
         else
         {
@@ -158,7 +170,11 @@ public class Lax : MonoBehaviour {
 
     IEnumerator R_cd()
     {
-        yield return new WaitForSeconds(2f);
-        Lax_cd.cdr = Lax_cd.R;
+        yield return new WaitForSeconds(1f);
+        if (R_Count_Now != R_Count_Max)
+        {
+            Lax_cd.cdr = Lax_cd.R;
+            R_Count_Now = R_Count_Max;
+        }
     }
 }

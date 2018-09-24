@@ -5,9 +5,10 @@ using UnityEngine;
 public class Attack22 : MonoBehaviour {
 
     public ParticleSystem p;
+    public float Hurt = 350f;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -20,6 +21,9 @@ public class Attack22 : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy")
-            Debug.Log("Bingo!");
+        {
+            other.gameObject.GetComponent<Enemy>().HP_Now -= Hurt;
+            Debug.Log(other.gameObject.GetComponent<Enemy>().HP_Now);
+        }
     }
 }

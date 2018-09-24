@@ -6,12 +6,19 @@ public class Attack : MonoBehaviour {
 
     private float StartTime;
     private GameObject m_camera;
+    public float Hurt = 150f;
+
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy")
-            Debug.Log("Bingo!");
- //       if (other.tag != "Player")
- //           Destroy(gameObject);
+        {
+            other.gameObject.GetComponent<Enemy>().HP_Now -= Hurt;
+            Debug.Log(other.gameObject.GetComponent<Enemy>().HP_Now);
+            if (name == "Attack1")
+                gameObject.SetActive(false);
+            else
+                Destroy(gameObject);
+        }
     }
 
     void Start()

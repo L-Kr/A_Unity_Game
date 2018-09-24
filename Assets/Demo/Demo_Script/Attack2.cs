@@ -23,7 +23,7 @@ public class Attack2 : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (Time.time-StartTime > 3.0f)
+        if (Time.time - StartTime > 3.0f || Input.GetKeyDown(KeyCode.E))
         {
             Exprossion.SetActive(true);
             Exprossion.transform.position = transform.position;
