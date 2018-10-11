@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Z!M.O.B.A Environment Art Pack/Demo/Demo.unity
-    guid: 8f3c706ba666a1340afdcbf041b25839
+    path: Assets/Demo/LogIn.unity
+    guid: d93ab7ed58433174cba033724186c927
+  - enabled: 1
+    path: Assets/Demo/Game.unity
+    guid: 35dff4d010f485649aa65a37e2ff5ecd
   m_configObjects: {}

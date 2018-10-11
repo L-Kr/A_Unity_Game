@@ -20,6 +20,9 @@ public class Demo_SQL {
         }
         return instance;
     }
+
+    public string Username { set; get; }
+    public string Heroname { set; get; }
 }
 
 public class CD_Manager

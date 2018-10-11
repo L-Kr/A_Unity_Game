@@ -66,8 +66,10 @@
     <Compile Include="Assets\Demo\Demo_Script\Attack22.cs" />
     <Compile Include="Assets\Demo\Demo_Script\Enemy.cs" />
     <Compile Include="Assets\Demo\Demo_Script\EnemyControl.cs" />
+    <Compile Include="Assets\Demo\Demo_Script\LoadGame.cs" />
     <Compile Include="Assets\Demo\Demo_Script\NewBehaviourScript.cs" />
     <Compile Include="Assets\Demo\Demo_Script\Parameter.cs" />
+    <Compile Include="Assets\Demo\Demo_Script\UI_Control.cs" />
     <Compile Include="Assets\Demo\Script\CarmeraMove.cs" />
     <Compile Include="Assets\Demo\Script\Demo_SQL.cs" />
     <Compile Include="Assets\Demo\Script\Lax.cs" />

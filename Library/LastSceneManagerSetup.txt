@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Z!M.O.B.A Environment Art Pack/Demo/Demo.unity
+- path: Assets/Demo/LogIn.unity
   isLoaded: 1
   isActive: 1

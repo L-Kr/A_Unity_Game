@@ -42,7 +42,7 @@ public class Lax : MonoBehaviour {
         Mp_Now = Mp_Max;
         R_Count_Now = R_Count_Max;
         Lax_cd = new CD_Manager(7f, 10f, 30f);
-        Lax_cd.Set_consume(50f, 75f, 20f);
+        Lax_cd.Set_consume(50f, 75f, 50f);
     }
 	
 	void Update () {
